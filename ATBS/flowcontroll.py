@@ -25,3 +25,4 @@ else:
 #Entered ' ' Result: true
 #for integers 0 is false and everything else is true
 #for decimal 0.0 is false and everything else is true
+
