@@ -25,11 +25,13 @@ SECRET_KEY = 'nva2g_-$im*n3sl&k)b7i^+8#xq^g$ad(8!xsp_5rpcfh7)zs%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS =  ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
-
+# Applications that are enabled.
+# They're python paths to an application configuration class or a package containing an application
+# Application names must be unique
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog',
 ]
 
 MIDDLEWARE = [
