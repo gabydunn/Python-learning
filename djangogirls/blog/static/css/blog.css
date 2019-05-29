@@ -1,3 +1,45 @@
 h1 a, h2 a {
-    color: #C25100
+    color: rgb(255, 145, 0);
+    font-family: 'Lobster';
+}
+.page-header{
+    background-color: rgb(255, 145, 0);
+    margin-top:0;
+    margin-left: 0%;
+    padding: 20px 20px 20px 40px;
+    padding-left: 15px
+}
+.page-header h1, .page-header h1 a:visited, .page-header h1 a:active{
+    color: #fff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+.content{
+    padding-left: 15px;
+    margin-left: 40px
+}
+h1,h2,h3,h4{
+    font-family: 'Lobster', cursive
+}
+.date{
+    margin-top:15px;
+    color: #828282;
+}
+.save{
+    float: right;
+}
+.post-form textarea, .post-form input{
+    width: 100%
+}
+.top-menu, .top-menu:hover, .top-menu:active{
+    color: #fff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20%
+}
+.post{
+    margin-bottom: 70px
+}
+.post h2 a, .post h2 a:active{
+    color: #000;
 }
